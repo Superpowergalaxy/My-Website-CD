@@ -1,8 +1,9 @@
 # baseURL = "http://example.org/"
 baseURL = "http://test.superpowergalaxy.com.s3-website-us-east-1.amazonaws.com/"
-title = "SuperPowerGalaxy"
+title = "Jingyu Su"
 languageCode = "en-us"
 theme = "ananke"
+
 
 [[deployment.targets]]
 # An arbitrary name for this target.
@@ -13,18 +14,19 @@ URL = "s3://test.superpowergalaxy.com/?region=us-east-1" #your bucket here
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "UA-157146402-1"
 enableRobotsTXT = true
 
 [sitemap]
   changefreq = "monthly"
-  priority = 0.5
+  priority = 0.7
   filename = "sitemap.xml"
 
 [params]
   favicon = ""
-  description = "The last theme you'll ever need. Maybe."
+  new-window = ""
+  description = "My persional website."
   facebook = ""
   twitter = ""
   instagram = "https://www.instagram.com/superpowergalaxy/"

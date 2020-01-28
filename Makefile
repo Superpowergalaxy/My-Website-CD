@@ -3,5 +3,5 @@ clean:
 	rm -rf public
 deploy:
 	echo "deploy the new site"
-	hugo
-	hugo deploy
+	HUGO_ENV=production hugo
+	hugo deploy --maxDeletes 2

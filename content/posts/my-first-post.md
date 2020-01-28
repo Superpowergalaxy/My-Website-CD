@@ -2,7 +2,7 @@
 title: "How I creared this Continuous Deployment website"
 date: 2020-01-26T18:30:13Z
 featured_image: "images/cd_aws_website.PNG"
-
+description: "My development process"
 draft: false
 ---
 # Why Continuous Deployment(CD)?
@@ -29,4 +29,4 @@ The Building of this website consist of 5 steps. They are:
 4.	Set up AWS Route 53 for web-serving.
 5.	Create AWS CodeBuild to build form Github Commit.
 
-To be continue.....
+To be continue...
